@@ -12,7 +12,7 @@ app.config([
                 controller: 'NewController'
             })
             .state('complete', {
-                url: '/complete/:foo?bar',
+                url: '/complete',
                 templateUrl: './app/complete.html',
                 controller: 'CompleteController',
                 params: {
